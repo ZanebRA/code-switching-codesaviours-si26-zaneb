@@ -58,7 +58,7 @@ for entity in results:
     print(f"{entity['word']}: {entity['entity_group']}")
 
 
-👤 Built By
+##👤 Built By
 Zaneb Rasool Ahmed
 
 Machine Learning Intern | Code Saviours SI-26 | 2026
