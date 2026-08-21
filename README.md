@@ -39,12 +39,13 @@ The fine-tuned XLM-RoBERTa model achieved high classification performance across
 ## 💻 How to Run Locally
 
 ### 1. Install Dependencies
+
 ```bash
 pip install transformers torch datasets evaluate
-
+2. Run Inference in Python
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
 
-model_name = "[zaneb-217/code-switching-codesaviours-si26-zaneb]"
+model_name = "zaneb-217/code-switching-codesaviours-si26-zaneb"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForTokenClassification.from_pretrained(model_name)
 
@@ -55,9 +56,8 @@ results = nlp(text)
 
 for entity in results:
     print(f"{entity['word']}: {entity['entity_group']}")
----
 
-##👤 Built By
+👤 Built By
 Zaneb Rasool Ahmed
 
-Machine Learning Intern | Code Saviours SI-26 | 2026
+Machine Learning Intern | Code Saviours SI-26 | 2026 
