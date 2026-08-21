@@ -42,7 +42,6 @@ The fine-tuned XLM-RoBERTa model achieved high classification performance across
 ```bash
 pip install transformers torch datasets evaluate
 
-**## Run Inference in Python **
 from transformers import AutoTokenizer, AutoModelForTokenClassification, pipeline
 
 model_name = "[zaneb-217/code-switching-codesaviours-si26-zaneb]"
@@ -56,7 +55,7 @@ results = nlp(text)
 
 for entity in results:
     print(f"{entity['word']}: {entity['entity_group']}")
-
+---
 
 ##👤 Built By
 Zaneb Rasool Ahmed
