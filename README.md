@@ -11,7 +11,7 @@ In multilingual societies like Pakistan, social media users, chat messaging plat
 
 ## 🔗 Project Links & Demo
 
-* 🚀 **Model Hub:** [Fine-Tuned XLM-RoBERTa Model on Hugging Face]((https://huggingface.co/zaneb-217/code-switching-codesaviours-si26-zaneb))
+* 🚀 **Model Hub:** [Fine-Tuned XLM-RoBERTa Model on Hugging Face](https://huggingface.co/zaneb-217/code-switching-codesaviours-si26-zaneb)
 * 📹 **Video Demo (Loom):** [Watch Demo Video](https://www.loom.com/share/0a7d400d27d54165910f2486d7d5c0c0)
 
 ---
